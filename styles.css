@@ -1,0 +1,121 @@
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #bbeb36;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de la Galería */
+.gallery-section {
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.gallery-section h2 {
+    font-size: 2em;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+.image-block {
+    margin: 20px auto;
+    max-width: 90%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-block h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.subtitle {
+    font-size: 1em;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.image-row figure {
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+}
+
+/* Modificación del tamaño de las imágenes */
+/* Aquí se aumenta el ancho relativo y el máximo tamaño de las imágenes */
+.image-row img {
+    width: calc(100% - 100px); /* Cambiado de 33% a 50% para que sean más grandes */
+    max-width: 500px; /* Cambiado de 300px a 500px para imágenes más grandes */
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.image-row figcaption {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #8ad32b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
